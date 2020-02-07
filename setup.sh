@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # CHECKING SUDO PERMISSIONS
 
 if sudo echo "SUDO TEST" | grep "This incident will be reported."
