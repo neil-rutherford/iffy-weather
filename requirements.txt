@@ -1,0 +1,9 @@
+flask
+flask-ask
+flask-redis
+requests
+json
+atexit
+apscheduler
+pyzmq
+spidev
