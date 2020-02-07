@@ -1,0 +1,44 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"types": [
+				{
+					"name": "LIST_OF_UP_COMMANDS",
+					"values": [
+						{
+							"id": "UP",
+							"name": {
+								"value": "turn the heat up",
+								"synonyms": [
+									"increase the temperature",
+									"turn down the air conditioner",
+									"turn the air conditioner down",
+									"turn down the A.C.",
+									"turn the A.C. down",
+									"warm it up"
+								]
+							}
+						}
+				},
+				{
+					"name": "LIST_OF_DOWN_COMMANDS",
+					"values": [
+						{
+							"id": "DOWN",
+							"name": {
+								"value": "turn the heat down",
+								"synonyms": [
+									"cool it down",
+									"turn up the air conditioner",
+									"turn the air conditioner up",
+									"turn up the A.C.",
+									"turn the A.C. up",
+									"decrease the temperature"
+								]
+							}
+						}
+				}
+					]
+		}
+	}
+}

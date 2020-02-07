@@ -1,0 +1,68 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"intents": [
+				{
+					"name": "TemperatureUp",
+					"slots": [
+						{
+							"name": "upCommand",
+							"type": "LIST_OF_UP_COMMANDS",
+							"samples": [
+								"{upCommand}",
+								"{upCommand} by"
+							]
+						},
+						{
+							"name": "degrees",
+							"type": "AMAZON.NUMBER",
+							"samples": [
+								"{degrees} degree",
+								"{degrees} degrees",
+								"by {degrees} degree",
+								"by {degrees} degrees"
+							]
+						}
+					],
+					"samples": [
+						"{upCommand} {degrees} degree",
+						"{upCommand} {degrees} degrees",
+						"{upCommand} by {degrees} degree",
+						"{upCommand} by {degrees} degrees"
+					]
+				},
+				{
+					"name": "TemperatureDown",
+					"slots": [
+						{
+							"name": "downCommand",
+							"type": "LIST_OF_DOWN_COMMANDS",
+							"samples": [
+								"{downCommand}",
+								"{downCommand} by"
+							]
+						},
+						{
+							"name": "degrees",
+							"type": "AMAZON.NUMBER",
+							"samples": [
+								"{degrees} degree",
+								"{degrees} degrees",
+								"by {degrees} degree",
+								"by {degrees} degrees"
+							]
+						}
+					],
+					"samples": [
+						"{downCommand} {degrees} degree",
+						"{downCommand} {degrees} degrees",
+						"{downCommand} by {degrees} degree",
+						"{downCommand} by {degrees} degrees"
+					]
+				}
+			]
+		}
+	}
+}
+
+
