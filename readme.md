@@ -10,7 +10,7 @@ This is meant to show my knowledge of programming skills, and it is not meant to
 - I'm using placeholder functions for AC controls (I mean, it won't break, but it won't work like you expect it to)
 - Something else that I'm probably not seeing :)
 
-Other than that, enjoy! I hope it's well-documented enough to follow.
+Other than that, enjoy! My write-up is in the cover letter PDF file. I hope it's well-documented enough to follow.
 
 Assuming you're on Linux with sudo permissions, here's how you can get started:
 ```
